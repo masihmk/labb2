@@ -4,9 +4,108 @@
     <meta charset="utf-8">
     <meta name="description" content="Laboration 1 ISGA11">
     <meta name="keywords" content="HTML, CSS">
-    <meta name="author" content="Ali sina Nabi">
+    <meta name="author" content="Robin Johansson Speelgren">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rare Engin</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>Mewwoo</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  
+  <body>
+
+    <header>
+      <img src="Bilder/805-04.jpg" alt="bild" id="logo"/>
+      <h2>Bilförsäljning AB</h2>
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th><a href="../index.html" class="link">Hem</a></th>
+          <th><a href="HTML/forsalj.html" class="link">Artiklar</a></th>
+          <th><a href="HTML/kontaktsida.html" class="link">Kontakt</a></th>
+        </tr>
+      </thead>
+    </table>
+
+  <!-- GOOGLE MAPS -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1227.8697237018357!2d13.5827090245184!3d59.40599131929506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa20ecf411a74d336!2zNTnCsDI0JzIyLjEiTiAxM8KwMzQnNTQuMCJF!5e0!3m2!1ssv!2sse!4v1643046383386!5m2!1ssv!2sse" style="border:1;" allowfullscreen="" loading="lazy" id="maps"></iframe>
+
+<!-- artikelbilder från https://pixabay.com/ -->
+
+<form class="formular" action="HTML/forsalj.html" method="post">
+  <h5>Sök bland artiklar</h5>
+    <br>
+      <label for="cars"><strong>Märke</strong></label>
+        <br>
+          <select name="brand" id="brand">
+            <option value="choose">Välj..</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="toyota">Toyota</option>
+          </select>
+        <br>
+      <label for="model"><strong>Model</strong></label>
+        <br>
+          <input type="text" name="model" id="model">
+            <br>
+          <input type="submit" value="Sök" id="knapp">
+          <input type="reset">
+</form>
+
+<!-- Länk till Karlstad Universitet -->
+
+<a href="https://www.kau.se/informatik/utbildning/studera-informatik/nuvarande-student/information" target="_blank"> <img src="https://www5.kau.se/sites/default/files/Dokument/subpage/2010/03/kau_2011_rgb_jpg_16076.jpg" alt="KAU logo" class="hoger_bild"/></a>
+
+<div class="border">
+  <h3 class="artikel">
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+      <img src="Bilder/america1.jpg" alt="Bild på bil" id="bild" class="artikel_bild"/></a>
+    <a href="HTML/forsalj.html" class="link">American</a>
+  </h3>
+  <strong>Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget <em>dolor</em>. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  <a href="#" class="link">Starting at $123,400.00</a>.
+    <h5>
+      <a href="https://goo.gl/maps/xmMNZimHyxjiMSJ39" target="_blank" alt="länk till karta" class="link" id="kartlink">Kartlänk</a>
+    </h5>
+</div>
+
+<div class="border">
+  <h3 class="artikel">
+    <a href="https://www.youtube.com/watch?v=0Mzy68cV0Sk" target="_blank">
+      <img src="Bilder/fiat1.jpg" alt="Bild på bil" id="bild" class="artikel_bild"></a>
+        <a href="HTML/forsalj.html" class="link">Fiat</a>
+  </h3>
+  Lorem ipsum dolor sit amet, <strong>consectetuer</strong> adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis <em>parturient</em> montes, nascetur ridiculus mus.
+  <a href="#" class="link">Starting at $210,213.00</a>.
+
+    <h5>
+      <a href="https://goo.gl/maps/2AY7Jzff6vKPHkDQ9" target="_blank" alt="länk till karta" class="link" id="kartlink">Kartlänk</a>
+    </h5>
+</div>
+
+<div class="border">
+  <h3 class="artikel">
+    <a href="https://plato.stanford.edu/entries/hegel/#PheSpi" target="_blank">
+      <img src="Bilder/auto1.jpg" alt="Bild på bil" id="bild" class="artikel_bild"/></a>
+        <a href="HTML/forsalj.html" class="link">Das Auto</a>
+  </h3>
+  Lorem <strong>ipsum dolor</strong> sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, <em>nascetur</em> ridiculus mus.
+  <a href="#" class="link">Starting at $900,012.00</a>.
+
+    <h5>
+      <a href="https://goo.gl/maps/Zjg2UT2H3xQ8UPe36" target="_blank" alt="länk till karta" class="link" id="kartlink">Kartlänk</a>
+    </h5>
+</div>
+
+<br><br>
+<hr>
+<footer>
+  <p class="footer">
+    Telefonnummer: 555-2315
+    <br>
+      <a href="mailto:mailmailmailmil@mailer.mailmil">@student.kau.se</a>
+  </p>
+</footer>
+
+  </body>
+</html>
