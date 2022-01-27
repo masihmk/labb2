@@ -1,0 +1,153 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+
+* {
+  font-family: Roboto, sans-serif;
+  background-color: #FFFFFF;
+  color: #212529;
+}
+
+header h2 {
+  padding-top: 25px;
+  padding-left: 115px;
+}
+
+table {
+  background-color: #212529;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+form h5 {
+  margin: 0 auto;
+}
+
+/* Google Maps */
+
+
+
+#meny {
+width: 80px;
+height: 70px;
+}
+
+
+#kartlink {
+  padding-left: 0.5%;
+  text-decoration-line: underline;
+}
+
+#logo {
+  float: left;
+}
+
+#knapp {
+  margin-top: 10px;
+  height: auto;
+  width: auto;
+}
+
+#brand {
+  margin-top: 5px;
+}
+
+
+.border {
+  margin-bottom: 10px;
+  height: 10%;
+  width: 40%;
+  min-width: 650px;
+  max-width: 650px;
+  border: 2px solid #212529;
+}
+
+.border:hover {
+  border: 2px solid #495057;
+}
+
+.artikel {
+  font-weight: bold;
+}
+
+.link {
+  color: #14213D;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #495057;
+}
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.kontakt {
+    margin-bottom: 10px;
+  padding-bottom: 10px;
+  height: 200px;
+  width: 250px;
+  border: 2px solid #212529;
+  text-align: center;
+}
+
+.kontakt2{
+    margin-left: 15px;
+    margin-bottom: 10px;
+  padding-bottom: 10px;
+  height: 200px;
+  width: 250px;
+  border: 2px solid #212529;
+  text-align: center;
+}
+
+.öppet{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: 300px;
+    width: 400px;
+
+}
+
+.maps2{
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-bottom: -200px;
+    padding-left: 10px;
+    height: 300px;
+    width: 400px;
+    border: 2px solid #212529
+}
+#kontakt3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#butik{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bild8{
+    margin-top: 160px;
+    width: 300px;
+    height: auto;
+    margin-left: 15px;
+
+    border: 1px solid #212529
+
+}
+#bild88{
+    display: flex;
+    flex-wrap: wrap;
+}

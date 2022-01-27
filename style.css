@@ -98,22 +98,6 @@ height: 70px;
   margin-top: 5px;
 }
 
-.formular {
-  margin-left: 660px;
-  padding-top: 10px;
-  height: 223.5px;
-  width: 10%;
-  min-width: 155px;
-  float: left;
-  text-align: center;
-  position: absolute;
-  border: 2px solid #212529;
-}
-
-.formular:hover {
-  border: 2px solid #495057;
-}
-
 .artikel_bild {
   float: left;
 }
