@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+/*
+  Palette:
+  https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
+*/
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+  font-family: Roboto, serif;
+  color: #212529;
+}
+
+.table a:hover {
+    background-color: blue ;
+}
+.formular {
+    margin-left: 660px;
+    padding-top: 5px;
+    height: 223.5px;
+    width: 10%;
+    min-width: 160px;
+    float: left;
+    text-align: center;
+    position: absolute;
+    border: 2px solid #212529;
+  }
+.main-header{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(../Bilder/pawel-czerwinski-BP2RioglKXk-unsplash.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.col{
+    color: white;
+}
+
+.body {
+    background-image: url(../Bilder/white-painted-wall-texture-background.jpeg);
+    background-size: cover;
+}
+.link {
+    color: #14213D;
+    text-decoration: none;
+  }
+
+.box {
+    width: 650px;
+    height: 150px;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;
+}
+.box-txt{
+    width: 200px;
+    height: 130px;
+    margin-left: 0px;
+   
+}
+.inner-box {
+    width: 200px;
+    height: 130px;
+    margin-left: 420px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+
+
