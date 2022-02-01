@@ -7,15 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
 
 
-/*
-  Palette:
-  https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff
-*/
-
-/*
-  Palette:
-  https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
-*/
+body {
+    background-image: url(../pics/new.jpeg);
+    background-size: cover;
+}
 
 * {
   font-family: Roboto, sans-serif;
@@ -27,10 +22,14 @@ header h2 {
   padding-top: 25px;
   padding-left: 115px;
 }
-
+header h6{
+   font-family: 'Brush Script MT', cursive;
+   font-size: 26px;
+}
 table {
   background-color: #212529;
-  margin: 0;
+  margin: 0 auto;
+  width: 1000px;
   margin-top: 40px;
   padding: 0;
   list-style-type: none;
@@ -41,9 +40,9 @@ form h5 {
   margin: 0 auto;
 }
 
-/* Google Maps */
 
 #maps {
+  margin-left: 250px;
   margin-top: 10px;
   margin-bottom: 10px;
   height: 350px;
@@ -54,6 +53,7 @@ form h5 {
   position:relative;
   border: 2px solid #212529;
 }
+
 
 #maps:hover {
   border: 2px solid #495057;
@@ -86,6 +86,7 @@ height: 70px;
 
 #logo {
   float: left;
+
 }
 
 #knapp {
@@ -103,8 +104,8 @@ height: 70px;
 }
 
 .hoger_bild {
-  margin-top: 248px;
-  margin-left: 660px;
+  margin-top: 100px;
+  margin-left: 1000px;
   height: auto;
   width: 10%;
   min-width: 155px;
@@ -112,8 +113,8 @@ height: 70px;
   border: 2px solid black;
 }
 .hoge_bild {
-  margin-top: -50px;
-  margin-left: 660px;
+  margin-top: -250px;
+  margin-left: 1000px;
   height: auto;
   width: 10%;
   min-width: 155px;
@@ -127,6 +128,8 @@ height: 70px;
 
 .border {
   margin-bottom: 10px;
+  margin-left: 250px;
+  border-radius: 6px;
   height: 10%;
   width: 40%;
   min-width: 650px;
@@ -135,7 +138,7 @@ height: 70px;
 }
 
 .border:hover {
-  border: 2px solid #495057;
+  border: 2px solid #ff0000;
 }
 
 .artikel {
@@ -155,38 +158,3 @@ height: 70px;
   margin-top: 10px;
   text-align: center;
 }
-
-/*
-
-Style-ORDER
-
-font-family
-font-style
-background-color
-color
-
-margin
-margin-top
-margin-right
-margin-bottom
-margin-left
-
-padding
-padding-top
-padding-right
-padding-bottom
-padding-left
-
-height
-width
-
-float
-text-align
-text-decoration
-display
-position
-border
-list-style
-overflow
-
-*/

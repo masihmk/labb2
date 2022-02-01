@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+
+header h6 {
+     font-family: 'Brush Script MT', cursive;
+     font-size: 26px;
+}
+
+table {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 40px;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+}
+
+* {
+  font-family: Roboto, serif;
+  color: #212529;
+}
+
+}
+.col{
+    color: white;
+}
+
+/.body {
+    background-image: url(../pics/new.jpeg);
+    background-size: cover;
+}
+.link {
+    color: #14213D;
+    text-decoration: none;
+  }
+  p1 {
+
+    font-size: 20px;
+  }
+  strong1{
+    font-size: 25px;
+  }
+.box {
+    width: 650px auto;
+    height: 150px auto;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;
+    word-wrap:break-word;
+}
+
+.inner-box {
+    width: 200px ;
+    height: 130px auto;
+    margin-left: 950px ;
+    margin-top: 5px auto;
+    border: 2px solid black;
+
+}
+.kontakt {
+  margin-left: 660px;
+  margin-top: 35px;
+  padding-top: : 5px;
+  height: 225px auto;
+  width: 10%auto;
+  border: 10px solid #212529;
+  float: left;
+  position: absolute;
+  min-width: 160px;
+  border-image: url(../pics/br.jpeg) 30 round;
+}
