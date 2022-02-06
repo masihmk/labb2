@@ -35,8 +35,50 @@
 <!-- Sido annonser, öppenbart-->
 
 <a href="https://www.blocket.se" target="_blank"> <img src="pics/blocket.png" class="hoger_bild"/></a>
-<a href="https://www.riddermarkbil.se" target="_blank"> <img src="pics/ridd.jpeg" class="hoge_bild"/></a>
 
+<div class="form">
+  <form>
+    <label for="fname">Namn</label>
+    <input type="text" id="fname" name="firstname" placeholder="Namn">
+
+    <label for="lname">Efter namn</label>
+    <input type="text" id="lname" name="lastname" placeholder="Efternamn">
+    <label class="container">Man
+      <input type="checkbox" checked="checked">
+      <span class="checkmark"></span>
+    </label>
+    <label class="container">Kvinna
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label>
+    <label class="container">Annat
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label>
+    <br><br>
+    <label for="country">Bil</label>
+    <select id="country" name="country">
+      <option value="">Välj bilen</option>
+      <option value="australia">Porsche</option>
+      <option value="canada">BMW</option>
+      <option value="usa">Mercedes</option>
+    </select>
+    <select id="country" name="country">
+      <option value=""> Välj landet</option>
+      <option value="australia">Sverige</option>
+      <option value="canada">Kanada</option>
+      <option value="usa">USA</option>
+    </select>
+    <select id="country" name="country">
+      <option value="">Typ av annons</option>
+      <option value="australia">Köp</option>
+      <option value="canada">Hyra</option>
+      <option value="usa">Sälja</option>
+    </select>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 <!-- Annonser -->
 
 <div class="border">
