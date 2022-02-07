@@ -10,7 +10,6 @@ header h6 {
      font-size: 26px;
 }
 
-
 #logo {
   float: left;
   margin-left: 5px;
@@ -25,7 +24,7 @@ ul.menu {
   justify-content: center;
   background-color: white;
   font-weight: bold;
-  
+
 }
 ul.menu>li{
   position: relative;
