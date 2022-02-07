@@ -1,36 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
 
+* {
+  font-family: Roboto, serif;
+  color: #212529;
+}
 
 header h6 {
      font-family: 'Brush Script MT', cursive;
      font-size: 26px;
 }
 
-table {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  width: 1000px;
-  margin-top: 40px;
-  padding: 0;
-  list-style-type: none;
-  overflow: hidden;
-}
 
 #logo {
   float: left;
+  margin-left: 5px;
+  width: 100px;
+  height: 75px;
 }
 
-* {
-  font-family: Roboto, serif;
-  color: #212529;
+ul.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: white;
+  font-weight: bold;
+  
+}
+ul.menu>li{
+  position: relative;
+  padding-right: 10rem;
+  margin-left: 10rem;
+}
+ul.menu>li>a{
+  display: block;
+  text-decoration: none;
+}
+ul.menu>li:hover{
+  background-color: gray;
+}
+ul.menu>li li:hover>a{
+  background-color: gray;
 }
 
+ul.menu>li>ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  display: none;
 }
+
+ul.menu>li:hover>ul{
+  display: block;
+}
+
 .col{
     color: white;
 }
 
-/.body {
+body {
     background-image: url(../pics/new.jpeg);
     background-size: cover;
 }
@@ -65,7 +98,7 @@ table {
 .kontakt {
   margin-left: 660px;
   margin-top: 35px;
-  padding-top: : 5px;
+  padding-top: 5px;
   height: 225px auto;
   width: 10%auto;
   border: 10px solid #212529;
