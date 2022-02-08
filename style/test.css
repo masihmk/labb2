@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
 
 
 * {
@@ -22,7 +18,7 @@ header h6{
 }
 body{
   background-image: url(../pics/new.jpeg);
-  background-size: cover;
+  background-size:cover;
 }
 
 ul.menu {
@@ -69,47 +65,7 @@ ul.menu>li:hover>ul{
   text-align: center;
   font-size: 40px;
 }
-form h5 {
-  margin: 0 auto;
-}
 
-#meny {
-width: 80px;
-height: 70px;
-}
-
-#kartlink {
-  padding-left: 0.5%;
-  text-decoration-line: underline;
-}
-
-#knapp {
-  margin-top: 10px;
-  height: auto;
-  width: auto;
-}
-
-#brand {
-  margin-top: 5px;
-}
-
-
-.border {
-  margin-bottom: 10px;
-  height: 10%;
-  width: 40%;
-  min-width: 650px;
-  max-width: 650px;
-  border: 2px solid #212529;
-}
-
-.border:hover {
-  border: 2px solid #495057;
-}
-
-.artikel {
-  font-weight: bold;
-}
 
 .link {
   color: #14213D;
@@ -120,10 +76,6 @@ height: 70px;
   color: #495057;
 }
 
-.footer {
-  margin-top: 10px;
-  text-align: center;
-}
 
 .kontakt {
     margin-bottom: 10px;
@@ -148,6 +100,18 @@ height: 70px;
   border-image: url(../pics/br.jpeg) 30 round;
 
 }
+.kontakt4
+{
+  margin-left: 15px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+  padding-bottom: 10px;
+  height: 200px;
+  width: 250px;
+  border: 10px solid #212529;
+  text-align: center;
+  border-image: url(../pics/br.jpeg) 30 round;
+}
 
 .öppet{
     margin-bottom: 10px;
@@ -169,25 +133,14 @@ height: 70px;
     width: 400px;
     border: 2px solid #212529
 }
-#kontakt3{
+#kontakt3
+{
   margin: 0px auto;
 
 }
 
-#butik{
-    display: flex;
-    flex-wrap: wrap;
-}
-.bild8{
-    margin-top: 160px;
-    width: 300px;
-    height: auto;
-    margin-left: 15px;
-
-    border: 1px solid #212529
-
-}
-#bild88{
-    display: flex;
-    flex-wrap: wrap;
+#maps
+{
+  height: 210px;
+  width: 380px;
 }
