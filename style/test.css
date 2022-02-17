@@ -22,6 +22,7 @@ header h6{
 }
 body{
   background-image: url(../pics/new.jpeg);
+  /*källan på bilden  https://photostockeditor.com/image-rf/abstract-ray-light-background-gray-gradient-blurred-studio-room-1270080274*/
   background-size:cover;
 }
 
@@ -90,6 +91,9 @@ ul.menu>li:hover>ul{
   border: 10px solid #212529;
   text-align: center;
   border-image: url(../pics/br.jpeg) 30 round;
+  
+
+  
 }
 
 .kontakt2{
@@ -102,6 +106,7 @@ ul.menu>li:hover>ul{
   border: 10px solid #212529;
   text-align: center;
   border-image: url(../pics/br.jpeg) 30 round;
+  
 
 }
 .kontakt4
